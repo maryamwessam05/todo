@@ -134,7 +134,9 @@ const Home = () => {
                         <div className="tasklist">
                             {students.map((student) => (
                                 <div className="task" key={student.id} style={{ backgroundColor: student.color }}>
+                                    
                                     <div className="row1">
+                                        
                                         <div className="header">
                                             <h3>{student.title}</h3>
                                             <p>{student.description}</p>
@@ -145,7 +147,7 @@ const Home = () => {
 
                                     </div>
                                     <div className="datesline">
-                                        <h3>Due date {student.due_date}</h3>
+                                        <h3>Due date: <span> {student.due_date}</span></h3>
                                     </div>
                                     <div className="taskbtns">
                                         <button className='edit'>Edit</button>
