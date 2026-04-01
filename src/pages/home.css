@@ -39,8 +39,7 @@ gap: 15px;
 
 .profdeets h3{
     color: #FFF;
-leading-trim: both;
-text-edge: cap;
+
 font-family: Poppins;
 font-size: 20px;
 font-style: normal;
@@ -50,8 +49,7 @@ line-height: normal;
 
 .profdeets span{
     color: #FFF;
-leading-trim: both;
-text-edge: cap;
+
 font-family: Poppins;
 font-size: 20px;
 font-style: normal;
@@ -84,8 +82,7 @@ gap: 5px;
 
 .fire p{
     color: #F48FB1;
-leading-trim: both;
-text-edge: cap;
+
 font-family: Poppins;
 font-size: 14px;
 font-style: normal;
@@ -221,4 +218,181 @@ gap: 10px;
 height: 33px;
 border: 1px solid #FFF;
 border-radius: 50%;
+}
+
+form{
+    display: flex;
+padding: 23px 20px;
+flex-direction: column;
+align-items: flex-start;
+gap: 23px;
+border-radius: 25px;
+background: #F9A71A;
+width: 100%;
+}
+
+.createtask h1{
+    color: #FFF;
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.createtask{
+    width: 100%;
+}
+.taskname{
+    display: flex;
+width: 100%;
+height: 50px;
+padding: 7px 6px;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-bottom: 1px solid #FFF;
+background: #D88D0D;
+}
+.input{
+    width: 100%;
+}
+.details{
+    display: flex;
+height: 72px;
+padding: 10px 130px 10px 9px;
+align-items: center;
+width: 100%;
+border-bottom: 1px solid #FFF;
+background: #D88D0D;
+}
+
+select{
+        display: flex;
+padding: 0 11px;
+align-items: center;
+gap: 81px;
+flex: 1 0 0;
+align-self: stretch;
+    width: 100%;
+border-radius: 14px;
+background: #FFF;
+height: 100%;
+justify-content: flex-end;
+border: none;
+}
+
+input{
+    border: none;
+}
+input:focus{
+    outline: white solid 1px;
+    color: #FFF;
+}
+input::placeholder{
+    color: #ffffff78;
+}
+.dropdowns{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 32px;
+align-self: stretch;
+}
+label{
+       color: #FFF;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.choose{
+    display: flex;
+align-items: flex-start;
+gap: 10px;
+align-self: stretch;
+}
+
+.choosedd{
+    position: relative;
+    width: 100%;
+    height: 48px;
+}
+
+.choosedd input{
+    display: flex;
+padding: 0 11px;
+align-items: center;
+gap: 81px;
+flex: 1 0 0;
+align-self: stretch;
+    width: 100%;
+border-radius: 14px;
+background: #FFF;
+height: 100%;
+justify-content: flex-start;
+}
+
+.choosedd img{
+position: absolute;
+right: 10px;
+top: 45%;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator,
+input[type="time"]::-webkit-calendar-picker-indicator {
+  transform: scale(1.5); /* try 1.5 → 2 */
+  cursor: pointer;
+}
+
+.choosedd select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.choosedd input[type="date"],
+.choosedd input[type="time"] {
+  color: #222;
+}
+
+.addtask{
+    display: flex;
+width: 100%;
+padding: 13px 132px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 79px;
+border: 2px solid #F9A71A;
+background: #FFF;
+color: #F9A71A;
+leading-trim: both;
+text-edge: cap;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.pri{
+    width: 100%;
+    height: 48px;
+    border-radius: 14px;
+    background: #FFF;
+    border: none;
+    padding: 0 11px;
+    display: flex;
+    align-items: center;
+    gap: 81px;
+    justify-content: flex-end;
+}
+
+.priorities{
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
 }
