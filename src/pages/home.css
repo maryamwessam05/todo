@@ -7,10 +7,21 @@
 
 main{
     border-radius: 27px;background: #2A253B;
-    max-width: 600px;
+    max-width: 500px;
     min-width: 300px;
-    margin: 0 auto;
+    margin: 50px auto;
     padding: 40px 20px;
+    gap: 43px;
+    background-image: url("../assets/Frame\ 83.svg");
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+    background-size: cover;
+}
+.taskscont{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 43px;
 }
 
 .profile{
@@ -44,6 +55,170 @@ text-edge: cap;
 font-family: Poppins;
 font-size: 20px;
 font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.profdeets p{
+    color: rgba(255, 255, 255, 0.73);
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
 font-weight: 400;
 line-height: normal;
+}
+
+.streak{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+align-self: stretch;
+}
+
+.fire{
+    display: flex;
+align-items: center;
+gap: 5px;
+}
+
+.fire p{
+    color: #F48FB1;
+leading-trim: both;
+text-edge: cap;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.name{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+.tasks{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 12px;
+width: 100%;
+}
+
+.tasks h1{
+    color:  #FFF;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.task{
+    display: flex;
+padding: 19px;
+flex-direction: column;
+align-items: flex-start;
+gap: 11px;
+align-self: stretch;
+border-radius: 19px;
+width: 100%;
+background: #7192CB;
+
+}
+
+.tasklist{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 21px;
+align-self: stretch;
+width: 100%;
+}
+
+.row1{
+  display: flex;
+justify-content: space-between;
+align-items: flex-start;
+align-self: stretch;
+    }
+
+.header{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 3px;
+}
+
+.header h3{
+    color: #FFF;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.header p{
+    color: #FFF;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.edit{
+    display: flex;
+width: 93px;
+height: 31px;
+padding: 5px 33px 5px 34px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 39px;
+background: #FFF;
+color: #2A253B;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.delete{
+    border-radius: 39px;
+background: #E73B3B;
+display: flex;
+width: 93px;
+height: 31px;
+padding: 5px 33px 5px 34px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+color: #FFF;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+button{
+    border: none;
+    cursor: pointer;
+}
+
+.taskbtns{
+    display: flex;
+justify-content: flex-end;
+align-items: center;
+gap: 10px;
+}
+
+.complete{
+    width: 33px;
+height: 33px;
+border: 1px solid #FFF;
+border-radius: 50%;
 }
